@@ -1,27 +1,67 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Music Player</title>
+  <meta charset="UTF-8">
+  <title>Music Player</title>
+  <style>
+    .music-item {
+      margin: 20px 0;
+      text-align: center;
+    }
+    img {
+      width: 200px; /* 封面图尺寸 */
+      height: 200px;
+      border-radius: 8px;
+    }
+    audio {
+      width: 300px;
+      margin-top: 10px;
+    }
+  </style>
 </head>
 <body>
-    <h1>My Music Collection</h1>
-    <!-- 音乐列表，循环展示并添加播放控件 -->
+  <h1>音乐列表</h1>
+
+  <!-- 第一首歌 -->
+  <div class="music-item">
+    <img src="1.jpg" alt="1"> <!-- 仓库里的封面文件名 -->
+    <h3>LBI利比（时柏尘）-跳楼机</h3>
     <audio controls>
-        <source src="LBI利比（时柏尘）-跳楼机.mp3" type="audio/mpeg">
-        您的浏览器不支持音频播放。
+      <source src="LBI利比（时柏尘）-跳楼机.mp3" type="audio/mpeg">
     </audio>
+  </div>
+
+  <!-- 第二首歌 -->
+  <div class="music-item">
+    <img src="2" alt="2"> <!-- 仓库里的封面文件名 -->
+    <h3>G.E.M. 邓紫棋-唯一</h3>
     <audio controls>
-        <source src="Stray Kids-Hollow.mp3" type="audio/mpeg">
-        您的浏览器不支持音频播放。
-    </audio>
-     <audio controls>
-        <source src="方大同-才二十三.mp3" type="audio/mpeg">
-        您的浏览器不支持音频播放。
-    </audio>
-   <audio controls>
-        <source src="方大同-春风吹.mp3" type="audio/mpeg">
-        您的浏览器不支持音频播放。
-    </audio>
+      <source src="G.E.M. 邓紫棋-唯一.mp3.mp3" type="audio/mpeg">
+    <think>
+  </div>
+        
+ <div class="music-item">
+    <img src="3" alt="3"> <!-- 仓库里的封面文件名 -->
+    <h3>Stray Kids-Hollow</h3>
+    <audio controls>
+      <source src="Stray Kids-Hollow人.mp3" type="audio/mpeg">
+    <think>
+  </div>
+
+ <div class="music-item">
+    <img src="4" alt="4"> <!-- 仓库里的封面文件名 -->
+    <h3>方大同-才二十三</h3>
+    <audio controls>
+      <source src="方大同-才二十三.mp3" type="audio/mpeg">
+    <think>
+  </div>
+    <div class="music-item">
+    <img src="5" alt="5"> <!-- 仓库里的封面文件名 -->
+    <h3>方大同-春风吹.mp3</h3>
+    <audio controls>
+      <source src="方大同-春风吹.mp3.mp3" type="audio/mpeg">
+    <think>
+  </div>    
+        
 </body>
 </html>
